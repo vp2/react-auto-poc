@@ -1,0 +1,41 @@
+{
+  "name": "react-auto-poc",
+  "version": "1.0.0",
+  "description": "React app UI automation PoC",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "babel-jest": "^24.8.0",
+    "chai": "^4.2.0",
+    "css-to-xpath": "^0.1.0",
+    "faker": "^4.1.0",
+    "jest": "^24.8.0",
+    "puppeteer": "^1.17.0"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.4.5"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "src"
+    ],
+    "modulePaths": [
+      "<rootDir>/src/base/"
+    ]
+  }
+}
